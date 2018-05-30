@@ -31,6 +31,7 @@ $(function () {
             $navbar.removeClass("navBar-fixed").clearQueue().animate({
                 top: "-48px"
             }, 0);
+            $('nav a').removeClass('chosen');
         }
     });
 
